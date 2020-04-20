@@ -1,0 +1,34 @@
+body {
+    background-color: #BBC6C8;
+}
+
+.cover-container {
+    max-width: 62em;
+    background-color: #5C686B;
+}
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.h-100 {
+    height: 100% !important;
+}
+.flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    flex-direction: column !important;
+}
+header {
+    margin-top: 3em;
+}
+.jumbotron {
+    background-color: #D2F2FA;
+}
+.textElement {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.jumboText {
+    font-size: 1.15em;
+    font-weight: bold;
+}
