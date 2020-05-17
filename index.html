@@ -2,86 +2,96 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-
-  <!--BootStrap CSS-->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--StyleSheet-->
-  <link rel="stylesheet" href="css/styles.css">
-
-  <title>Comprar USA</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content>
+    <meta name="author" content="James Matthias How, and Bootstrap">
+    <title>ALC Design SPA</title>
+    <!--Bootstrap Core-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/mainstyles.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Comprar USA</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Top <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Services</a>
-        <a class="nav-item nav-link" href="#">Catalog</a>
-        <a class="nav-item nav-link" href="#">Request Item</a>
-        <a class="nav-item nav-link" href="#">Contact Us</a>
-      </div>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark shadow p-3 mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Comprar USA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#catalog">Catalog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#covid-19_ppe">Covid-19 PPE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#request_products">Request Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact_us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+        <div class="col-md-5 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 font-weight-normal">Our Services</h1>
+            <p class="lead font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque odio
+                dolore eius neque! Quod praesentium at assumenda et sapiente culpa delectus deleniti fugiat doloribus
+                accusantium, facilis placeat id vel cupiditate?</p>
+        </div>
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
     </div>
-  </nav>
-  <div class="cover-container d-flex h-100 mx-auto flex-column">
-    <header>
-      <div class="jumbotron jumbotron-fluid text-center">
-        <img class="img-fluid headerImg" src="./images/comprarjumbotron.jpg" alt="ComprarUSA">
-        <div class="textElement">
-          <p class="jumboText">We're here to fulfill your purchasing needs!</p>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+        <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+            <div class="my-3 py-3">
+                <h2 class="display-5">Browse Our Full Catalog</h2>
+                <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt obcaecati vero
+                    repudiandae asperiores quam molestiae, delectus beatae labore illum consequatur! Eos reprehenderit
+                    deleniti repellat dolore inventore, similique perspiciatis explicabo saepe.</p>
+            </div>
+            <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+            </div>
         </div>
-      </div>
-    </header>
-    <main>
-      <div class="services">
-        <div class="row">
-          <div class="col-sm-4">
-            <p>Services We Offer:</p>
-          </div>
-          <dic class="col-sm-8">
-            <ul>
-              <li>Purchasing</li>
-              <li>Shipping</li>
-              <li>Custom Designs</li>
-              <li>Embroidary</li>
-              <li>Bulk Orders</li>
-            </ul>
-          </dic>
+        <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+            <div class="my-3 p-3">
+                <h2 class="display-5">Order Covid-19 PPE</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. A hic sit minus ipsum veniam
+                    excepturi nemo quae cupiditate sapiente molestiae quidem adipisci, sed et iure. Dolorem, modi! Vero,
+                    voluptas repellendus.</p>
+            </div>
+            <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
         </div>
-      </div>
-      <div class="catalog">
-      
-      </div>
-      <div class="itemRequest">
+    </div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"></div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"></div>
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3"></div>
 
-      </div>
-      <div class="contactUs">
-
-      </div>
-    </main>
-    <footer></footer>
-  </div>
+    
 
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+
+    <!--Bootstrap Scripts-->
+    <!--jQuery, then Popper.js, then Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
