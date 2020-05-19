@@ -32,3 +32,18 @@ body {
     background-color: #e5e5e5;
 }
 
+h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h5 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+}
