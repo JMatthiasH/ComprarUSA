@@ -35,7 +35,9 @@ body {
     border-radius: 21px;
     transform: rotate(30deg);
 }
-
+.headerImage {
+    background-image: url("../images/headerImage01Globe.png");
+}
 .product-device-2 {
     top: -25%;
     right: auto;
