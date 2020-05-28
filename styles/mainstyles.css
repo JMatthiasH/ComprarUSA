@@ -39,19 +39,32 @@ body {
 .headerImage {
     background-image: url("../images/headerImage01Globe.png");
 }
+
 .headerImageTwo {
     background-image: url("../images/headerImage02Business.png");
 }
+
 .mainHeader {
     background-image: url(../images/headerImageCenter.png);
     background-repeat: no-repeat;
 }
+
 .product-device-2 {
     top: -25%;
     right: auto;
     bottom: 0;
     left: 5%;
     background-color: #e5e5e5;
+}
+.catalogImage {
+    background-image: url(../images/catalogBackground.png);
+}
+#catalogButton {
+    margin-top: 30%;
+}
+.covidImage {
+    background-image: url(../images/covidImage.png);
+    background-repeat: no-repeat;
 }
 
 h1 {
