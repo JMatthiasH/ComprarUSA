@@ -86,3 +86,12 @@ p {
 li {
     font-family: 'Roboto', sans-serif;
 }
+.phoneImage {
+    max-width: 20%;
+}
+.whatsappImage {
+    max-width: 20%;
+}
+.faxImage {
+    max-width: 20%;
+}
