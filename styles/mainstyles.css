@@ -56,12 +56,15 @@ body {
     left: 5%;
     background-color: #e5e5e5;
 }
+
 .catalogImage {
     background-image: url(../images/catalogBackground.png);
 }
+
 #catalogButton {
     margin-top: 40%;
 }
+
 .covidImage {
     background-image: url(../images/covidImage.png);
     background-repeat: no-repeat;
@@ -86,12 +89,23 @@ p {
 li {
     font-family: 'Roboto', sans-serif;
 }
+
+.orderText {
+    font-size: x-large;
+}
+
+.paraLink {
+    color: lightblue;
+}
+
 .phoneImage {
     max-width: 20%;
 }
+
 .whatsappImage {
     max-width: 20%;
 }
+
 .faxImage {
     max-width: 20%;
 }
